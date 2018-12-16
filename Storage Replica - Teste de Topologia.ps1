@@ -1,0 +1,3 @@
+﻿## Storage Replica Server to Self - Teste de Topologia  - Créditos Gabriel Luiz - www.gabrielluiz.com ##
+
+Test-SRTopology -SourceComputerName SR1 -SourceVolumeName E: -SourceLogVolumeName L: -DestinationComputerName SR2 -DestinationVolumeName E: -DestinationLogVolumeName L: -DurationInMinutes 10 -ResultPath "C:\Teste" ## Executa o teste de topologia entre discos de servidores diferentes que será implantado o Storage Replica.
